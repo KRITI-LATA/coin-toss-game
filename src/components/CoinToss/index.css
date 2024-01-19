@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #e2a139;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.heading-text {
+  color: #a35200;
+  font-size: 35px;
+}
+.para-text {
+  color: #334155;
+  font-size: 20px;
+}
+.coin-image {
+  width: 250px;
+  height: 250px;
+}
+.toss-btn {
+  background-color: #e2a139;
+  color: #a35200;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.toss-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.toss-text {
+  color: #475569;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (max-width: 576px) {
+  .card-container {
+    width: 250px;
+    padding: 10px;
+  }
+  .coin-image {
+    width: 150px;
+    height: 150px;
+  }
+  .toss-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .heading-text {
+    font-size: 25px;
+  }
+}
